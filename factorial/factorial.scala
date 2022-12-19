@@ -21,5 +21,7 @@ object MyModule {
   }
 
 
-  def main(Args: Array[String])
+  def main(Args: Array[String]): Unit = {
+    println(factorial(5))
+  }
 }

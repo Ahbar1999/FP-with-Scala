@@ -1,7 +1,7 @@
 object Fibonacci {
 
   def fib(n: Int): Int = {
-    // local tail recursive function
+    // local tail recursive function 
     def go(n: Int, a: Int, b: Int): Int = {
       // when n >= 1, we will actually never reach the first case
       // the first case will only be reached for go(0)
